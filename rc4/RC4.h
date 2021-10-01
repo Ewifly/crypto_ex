@@ -30,7 +30,7 @@ int KSA(char *key, unsigned char *Sbox){
 
 static int PRGA(unsigned char *Sbox, char *plaintext, unsigned char *ciphertext){
     /*
-    Pseudo Randome Generation Algorithme
+    Pseudo Random Generation Algorithme
     */
     int16_t i = 0, j = 0;
 
